@@ -1,0 +1,4 @@
+msig
+*.exe
+.env
+vendor/
