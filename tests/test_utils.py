@@ -12,8 +12,8 @@ def test_get_hash_empty():
     assert isinstance(result, str)
 
 def test_safe_get():
-    d = {"a": {"b": 52}}
-    assert safe_get(d, "a") == {"b": 52}
+    d = {"a": {"b": 79}}
+    assert safe_get(d, "a") == {"b": 79}
     assert safe_get(d, "missing") is None
     assert safe_get(d, "missing", "default") == "default"
 
